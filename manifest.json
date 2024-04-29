@@ -1,0 +1,12 @@
+{
+    "name": "Unfreeze krrg_mrh",
+    "description": "枢木みるはさんのTwitterIDの表示を凍結する前のkrrg_mrhに変更します。",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+	{
+	    "matches": ["https://x.com/*", "https://twitter.com/*"],
+	    "js": ["index.js"]
+	}
+    ]
+}

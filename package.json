@@ -1,0 +1,16 @@
+{
+  "name": "unfreeze-krrg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "biome format --write *.js",
+    "lint": "biome lint --apply *.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.1"
+  }
+}
